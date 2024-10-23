@@ -13,7 +13,43 @@
 			},
 			"request": {
 				"method": "POST",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Jackson\",\r\n    \"email\": \"jacksonwengler@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://github.com/JacksonWengler/info_api/blob/api/info.json?name=jacskon&email=andy@gmail.com",
+					"protocol": "https",
+					"host": [
+						"github",
+						"com"
+					],
+					"path": [
+						"JacksonWengler",
+						"info_api",
+						"blob",
+						"api",
+						"info.json"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "jacskon",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "andy@gmail.com",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
