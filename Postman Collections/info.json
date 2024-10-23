@@ -1,8 +1,21 @@
 {
 	"info": {
 		"_postman_id": "b56cb10c-9a63-49a7-9d19-9bfb40aa28d4",
-		"name": "New Collection",
+		"name": "info_api_team",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "New Request",
+			"id": "9532b682-95fd-4aa7-94a1-376769e7202b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
 }
