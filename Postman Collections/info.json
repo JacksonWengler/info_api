@@ -17,12 +17,14 @@
 					{
 						"key": "name",
 						"value": "jackson",
-						"type": "text"
+						"type": "text",
+						"disabled": true
 					},
 					{
 						"key": "email",
 						"value": "andy@gmail.com",
-						"type": "text"
+						"type": "text",
+						"disabled": true
 					}
 				],
 				"body": {
